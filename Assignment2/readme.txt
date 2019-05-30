@@ -28,14 +28,14 @@ create table USERS
 	PASSWORD VARCHAR(20)
 )
 CREATE TABLE Staff(
-    ID int primary key generated always as identity,
-    FirstName varchar(20) NOT NULL,
-    LastName varchar(20) NOT NULL,
-    Email varchar(50) NOT NULL,
-    StaffPosition varchar(30) NOT NULL,
-    Address varchar(80) NOT NULL,
-    Status varchar(12) NOT NULL,
-    Password varchar(30) NOT NULL
+    	ID int primary key generated always as identity,
+    	FirstName varchar(20) NOT NULL,
+    	LastName varchar(20) NOT NULL,
+   	Email varchar(50) NOT NULL,
+    	StaffPosition varchar(30) NOT NULL,
+    	Address varchar(80) NOT NULL,
+    	Status varchar(12) NOT NULL,
+    	Password varchar(30) NOT NULL
 )
 
 Database insert data
