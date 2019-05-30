@@ -45,6 +45,7 @@
         %>
         <button class="button" type="button" onclick="location.href = 'log.jsp'" > User Login Logs </button>
         <button class="button" type="button" onclick="location.href = 'account.jsp'" > Edit Account </button>
+        <button class="button" type="button" onclick="location.href = 'view.jsp'" > View Order History </button>
         <button class="button" type="button" onclick="location.href = 'logout.jsp'" > Logout </button>
         <%}else{%>
         <p class="outline"> Login unsuccessful! </p>

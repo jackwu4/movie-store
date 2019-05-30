@@ -24,6 +24,8 @@
             <a class="link" href="login.jsp">Login</a>
             &emsp; 
             <a class="link" href="AdminLogin.jsp">Admin Login</a> 
+            &emsp; 
+            <a class="link" href="createOrder.jsp">Create order As guest</a>
         </div>
         <jsp:include page="/ConnServlet" flush="true" />
     </body>
