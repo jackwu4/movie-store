@@ -44,7 +44,7 @@ insert into staff (firstname, lastname, email, staffposition, address, status, p
 
 
 
-Data for the Movie table, remember to add the table in first 
+Data for the Movie table, remember to add the table in first, the movie.GRAB is in the chat
 
 INSERT INTO MOVIEDB2.MOVIE (MOVIEID, TITLE, DIRECTOR, PRICE, GENRE, RATING, RELEASEDATE, STOCK, MOVIELENGTH) 
 	VALUES (1, 'Finding Dory', 'Andrew Stanton', 9.99, 'Adventure', 5, '2016-06-17', 4, 97)
