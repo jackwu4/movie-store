@@ -19,7 +19,6 @@
     
        <body>
             <%
-            //Activate the database search-validate once DBManager functions are completed
             DBManager manager = (DBManager)session.getAttribute("manager");
             String email = request.getParameter("email");
             String password = request.getParameter("password");
@@ -29,8 +28,8 @@
                 session.setAttribute("adminLogin", admin);
                 response.sendRedirect("AdminLanding.jsp");                        
             }else{
-                session.setAttribute("existErr", "Account Doesn't Exist Or Is Not An Admin");
-                response.sendRedirect("AdminLogin.jsp");                               
+                session.setAttribute("loginErr", "Account Information Incorrect Or Is Not An Active Admin");
+                response.sendRedirect("AdminLogin.jsp?e=1");                               
             }             
         %>
        </body>

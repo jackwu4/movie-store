@@ -14,6 +14,8 @@
         <h1 style="text-align:center; background-color: black;color: white">Online movie store</h1>
         <h2 style="text-align:center;">Administration Login</h2>
         <p style="text-align:center;">
+        <h4>Enter your details to login:</h4>
+        <%if(null!=session.getAttribute("loginErr")){%><h5 class="err">Account Information Incorrect Or Is Not An Active Admin</h5><%}%>
         <form style="margin: 0 auto; width: 250px;" action="AdminLoginAction.jsp" method="post">
             <table>                
                 <tr><td>Staff Email:</td><td><input type="text" name="email"></td></tr>
@@ -26,6 +28,7 @@
                 </tr>
             </table>
         </form>
+        ${loginErr=null}
     </p>
      <jsp:include page="/ConnServlet" flush="true" />
     </body>
