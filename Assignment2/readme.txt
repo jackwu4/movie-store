@@ -39,4 +39,5 @@ CREATE TABLE Staff(
 )
 
 Database insert data
+note. Usable Staff account need to set staffposition = 'Admin' and status = 'Activated'
 insert into staff (firstname, lastname, email, staffposition, address, status, password) values('Asif', 'Gill', 'email@email.com', 'Admin', 'address', 'Activated', 'password');
