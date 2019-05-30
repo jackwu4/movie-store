@@ -43,6 +43,9 @@ note. Usable Staff account need to set staffposition = 'Admin' and status = 'Act
 insert into staff (firstname, lastname, email, staffposition, address, status, password) values('Asif', 'Gill', 'email@email.com', 'Admin', 'address', 'Activated', 'password');
 
 
+
+Data for the Movie table, remember to add the table in first 
+
 INSERT INTO MOVIEDB2.MOVIE (MOVIEID, TITLE, DIRECTOR, PRICE, GENRE, RATING, RELEASEDATE, STOCK, MOVIELENGTH) 
 	VALUES (1, 'Finding Dory', 'Andrew Stanton', 9.99, 'Adventure', 5, '2016-06-17', 4, 97)
 INSERT INTO MOVIEDB2.MOVIE (MOVIEID, TITLE, DIRECTOR, PRICE, GENRE, RATING, RELEASEDATE, STOCK, MOVIELENGTH) 
