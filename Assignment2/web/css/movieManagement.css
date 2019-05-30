@@ -1,0 +1,62 @@
+html    {
+    height: 100%;
+}
+
+header  {
+    background: #c4c4c4;
+    text-align: left;
+    font-size: 14px;
+    padding: 2pt;
+    padding-left: 2%;
+}
+
+body    {
+    margin: 0px;
+    min-height: 100%;
+}
+
+
+.content    {
+    background: #ffffff;
+    max-width:50%;
+    min-width: 500px;
+    min-height: 100% ;
+    margin: auto;
+}
+.detailHolder {
+    min-height: 60vh;
+    width: inherit;
+    padding: 20px; 
+}
+
+.left   {
+    width: 100%;;
+    text-align: center;
+}
+label  {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+input  {
+    margin-left: 50px;
+}
+
+
+.addMovie, .removeMovie   {
+    margin-right: 20px;
+    float:right;
+    min-width: 10vh;
+}
+
+
+.back   {
+    margin-left: 20px;
+    min-width: 10vh;
+}
+.errorMsg   {
+    color: #ff0000;
+}
+
+
+

@@ -1,0 +1,121 @@
+html    {
+    height: 100%;
+}
+
+header  {
+    background: #c4c4c4;
+    text-align: left;
+    font-size: 14px;
+    padding: 2pt;
+    padding-left: 2%;
+}
+
+body    {
+    margin: 0px;
+    min-height: 100%;
+}
+
+.searchBar {
+    min-height: 30px;
+    width: inherit;
+    padding: 20px; 
+}
+
+.search  {
+    float: left;
+    width: 70%;
+    font-size:15px;
+    padding: 5px;
+}
+
+.searchButton   {
+    float: left;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    width: 15%;
+    min-width: 60px;
+}
+
+.genreDropdown  {
+    width: 15%;
+    min-width: 60px;
+    max-height: 31px;
+    text-align:center;
+    font-size: 17px;
+    float: left;
+    margin: 0px;
+    background: #c4c4c4	;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 30px;
+}
+
+.genreDropDownContent    {
+    display: none;
+    background: #c4c4c4;
+}
+
+.genreDropdown:hover .genreDropDownContent {
+    display: block;
+    background: #c4c4c4;
+    backface-visibility: hidden;
+    
+}
+
+.content    {
+    background: #ffffff;
+    max-width:85%;
+    min-width: 500px;
+    min-height: 100% ;
+    margin: auto;
+}
+
+.movieDiv {
+    padding: 20px;
+    height: auto;
+}
+
+table, th, td, tr   {
+    border: 1px solid #dedede;
+    border-collapse: collapse;
+    width: 100%;
+    height: 30px;
+    text-align:center;
+}
+.movieId    {
+    width:5%;
+}
+.title   {
+    width: 50%;
+}
+.price    {
+    width: 15%;
+}
+.genre  {
+    width:10%;
+}
+.quantity   {
+    width: 10%;
+}
+.edit {
+    width: 13%;
+}
+.editButton {
+    width: 100%;
+    height: inherit;
+}
+
+.addMovie   {
+    margin-right: 20px;
+    float:right;
+    min-width: 10vh;
+
+}
+
+.back   {
+    margin-left: 20px;
+    min-width: 10vh;
+}
+
+
