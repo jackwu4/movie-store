@@ -77,3 +77,20 @@ h2{
     width: 300px;
     height: 35px;
 }
+
+h1{
+ text-align: center;   
+}
+
+h2{
+    text-align: center;
+}
+
+h4{
+    text-align:center;
+}
+
+.err{
+    color: red;
+    text-align: center;
+}
