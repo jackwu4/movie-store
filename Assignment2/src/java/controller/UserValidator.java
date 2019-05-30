@@ -25,8 +25,8 @@ public class UserValidator implements Serializable
     private final String dobPattern = ".{10}";
     /*Starts with 04, followed by 8 more digits 0 to 9*/
     private final String phonePattern = "[0][4]([0-9]){8}";
-    /* starts with upper case. followed by a space and zero or more word.*/
-    private final String addressPattern = "[A-Z][a-z]+([\\s][A-Z][a-z]+)*";
+    
+    private final String addressPattern = ".*";
     
     public UserValidator()
     {
