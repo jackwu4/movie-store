@@ -425,8 +425,9 @@ public class DBManager {
     public ResultSet searchMovies(String search, ArrayList<String> genres) throws SQLException {
         String query = "SELECT * FROM MOVIE WHERE TITLE LIKE '%" + search + "%'";
         if (!genres.isEmpty()) {
-            for (int i = 0; i < genres.size(); i++) {
-                query = query + " AND GENRE='" + genres.get(i) + "'";
+            query = query + " AND GENRE='" + genres.get(0) + "'";
+            for (int i = 1; i < genres.size(); i++) {
+                query = query + " OR GENRE='" + genres.get(i) + "'";
             }
         }
         return st.executeQuery(query);
