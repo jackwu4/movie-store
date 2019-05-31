@@ -37,6 +37,18 @@ CREATE TABLE Staff(
     	Status varchar(12) NOT NULL,
     	Password varchar(30) NOT NULL
 )
+create table MOVIE
+(
+	MOVIEID INTEGER not null primary key,
+	TITLE VARCHAR(30) not null,
+	DIRECTOR VARCHAR(30) not null,
+	PRICE DOUBLE not null,
+	GENRE VARCHAR(16) not null,
+	RATING INTEGER not null,
+	RELEASEDATE DATE not null,
+	STOCK INTEGER not null,
+	MOVIELENGTH INTEGER not null
+)
 
 Database insert data
 note. Usable Staff account need to set staffposition = 'Admin' and status = 'Activated'
