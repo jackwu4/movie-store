@@ -40,9 +40,7 @@
         <p>Your Address is: <%= user.getAddress()%></p>        
         <p>Your Gender is: <%= user.getGender()%></p>       
         <p>Your Phone is: <%= user.getPhone()%></p>       
-        <%            
-            //session.setAttribute("theUser",user);
-        %>
+        
         <button class="button" type="button" onclick="location.href = 'log.jsp'" > User Login Logs </button>
         <button class="button" type="button" onclick="location.href = 'account.jsp'" > Edit Account </button>
         <button class="button" type="button" onclick="location.href = 'view.jsp'" > View Order History </button>
