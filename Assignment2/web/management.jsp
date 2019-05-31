@@ -13,7 +13,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
     </head>
-    <body>
+    <body onload="startTime()">
         <header><h1 style="text-align:center; background-color: black;color: white">Online movie store</h1></header>
         <h1>Management page</h1>
         <%
@@ -29,7 +29,7 @@
         }
         
     %>
-    <body onload="startTime()">
+    
         <div><span class="time" id="time" ></span></div>
         <% if(user != null) { %> 
         <h1>Hello, <%= user.getFirstName() %></h1> 
