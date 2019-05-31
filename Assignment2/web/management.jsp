@@ -47,6 +47,7 @@
         <button class="button" type="button" onclick="location.href = 'Catalogue.jsp'">Catalogue Management</button>
         <button class="button" type="button" onclick="location.href = 'logout.jsp'" > Logout </button>
         
+        
         <%}else{%>
         <p class="outline"> Login unsuccessful! </p>
         <button class="button" type="button" onclick="location.href = 'login.jsp'" > Login Page </button>
