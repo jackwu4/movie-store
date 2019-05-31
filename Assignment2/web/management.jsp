@@ -54,7 +54,7 @@
         <button class="button" type="button" onclick="location.href = 'login.jsp'" > Login Page </button>
         <%}%>        
         
-    </body>
+    
     </body>
     
 </html>
