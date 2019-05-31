@@ -25,7 +25,7 @@ create table USERS
 	USERID INTEGER not null primary key,
 	USERTYPE CHAR(10),
 	EMAIL VARCHAR(50),
-	PASSWORD VARCHAR(20)
+	PASSWORD VARCHAR(50)
 )
 CREATE TABLE Staff(
     	ID int primary key generated always as identity,
